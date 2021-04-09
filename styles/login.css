@@ -25,3 +25,7 @@
 .eye-icon {
   @apply w-6 h-6 text-gray-400 cursor-pointer hover:text-purple-600;
 }
+
+.error {
+  @apply absolute flex items-center justify-center text-xl font-bold text-red-600 uppercase top-5;
+}

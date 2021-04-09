@@ -1,0 +1,41 @@
+.screen-dash {
+  @apply relative flex flex-col items-center justify-center w-screen h-screen bg-purple-600;
+}
+
+.info-section {
+  @apply flex flex-col w-1/2 p-8 bg-white shadow-2xl rounded-3xl;
+}
+
+.info-section-2 {
+  @apply grid grid-cols-2 gap-8 rounded-3xl;
+}
+
+.section {
+  @apply flex flex-col w-full px-8;
+}
+
+.icon {
+  @apply self-center h-24 pb-2 m-4 border-b-2 border-purple-600;
+}
+
+.p-description {
+  @apply flex items-center;
+}
+
+.icon-detail {
+  @apply w-10 h-10 mr-4;
+}
+
+.div-detail {
+  @apply w-full px-4 py-2 mb-2 p-description;
+}
+
+/* bg-gray-100 rounded-full shadow-inner */
+
+.section-header {
+  @apply flex flex-col items-center;
+}
+
+.section-title {
+  @apply text-xl font-bold text-gray-600;
+}
