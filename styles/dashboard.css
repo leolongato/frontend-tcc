@@ -30,8 +30,6 @@
   @apply w-full px-4 py-2 mb-2 p-description;
 }
 
-/* bg-gray-100 rounded-full shadow-inner */
-
 .section-header {
   @apply flex flex-col items-center;
 }
