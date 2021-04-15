@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         inputUserRef.current.value,
         inputPasswordRef.current.value
       );
-      const response = await api.post<LoginProps>("/clients", user);
+      const response = await api.post<LoginProps>("/client", user);
       const responseClient = response.data.client_id;
 
       router.replace(`/${responseClient}`);

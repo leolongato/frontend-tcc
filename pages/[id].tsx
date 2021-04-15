@@ -14,7 +14,7 @@ const fetcher = (url) => api.get(url).then((res) => res.data);
 
 function Dashboard() {
   const router = useRouter();
-  const { data, error } = useSWR(`/clients/${router.query.id}`, fetcher);
+  const { data, error } = useSWR(`/client/${router.query.id}`, fetcher);
 
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading...</div>;
